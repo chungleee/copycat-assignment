@@ -1,3 +1,96 @@
-h3 {
+html {
+  font-family: sans-serif;
+}
+
+header {
+  background: turquoise;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+    display: inline-block;
+    text-align: center;
+    margin: 0 30px;
+}
+
+h1 {
+  float: left;
+  font-size: 24px;
+  padding-left: 25px;
+  color: white;
+}
+
+h2 {
+  font-weight: bold;
+  color: white;
+}
+img {
+    max-width: 100%;
+}
+
+h3, p {
+  text-align: left;
+  padding: 5px 15px;
+}
+
+.menu {
+  float: right;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 10px;
+}
+
+.home {
+  background-color: navy;
+  overflow: hidden;
+}
+
+.home img {
+    width: 50%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.cats {
+  background-color: orange;
+}
+
+.pics {
+    float: left;
+    width: 25%;
+    margin: 1%;
+    border: 15px solid black;
+}
+
+.products {
+  background-color: lightgrey;
+  overflow: hidden;
+}
+
+.yay {
+  display: inline-block;
+  padding: 0 40px;
+  color: pink;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about {
+  background-color: navy;
+}
+
+.hi {
+  color: white;
+}
+
+footer {
   background-color: turquoise;
+  text-align: right;
 }
